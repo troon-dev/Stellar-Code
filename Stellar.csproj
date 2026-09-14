@@ -1,0 +1,97 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Stellar</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp8.0</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="System.Collections">
+      <HintPath>System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="Photino.NET">
+      <HintPath>Photino.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json">
+      <HintPath>System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle.Cryptography">
+      <HintPath>BouncyCastle.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Registry">
+      <HintPath>Microsoft.Win32.Registry.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography">
+      <HintPath>System.Security.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal.Windows">
+      <HintPath>System.Security.Principal.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.HttpUtility">
+      <HintPath>System.Web.HttpUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Private.CoreLib">
+      <HintPath>System.Private.CoreLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
